@@ -1,26 +1,79 @@
-.app{
-  min-height: 100vh;
-  display: flex;
-  border:#2563eb;
-  justify-content: center;
-  align-items: center;
-  padding: 24px;
-  background-color: #eff6ff;
+/* .app{
+min-height: 100vh;
+display: flex;
+border:#2563eb;
+justify-content: center;
+align-items: center;
+padding: 24px;
+background-color: #eff6ff;
 }
 .welcome-card{
-  width: 100%;
-  max-width: 650px;
-  padding: 32px;
-  border-radius: 16px;
-  background-color: white;
-  box-shadow: 0 10px 25px rgba(30,64,175,0.15);
+width: 100%;
+max-width: 650px;
+padding: 32px;
+border-radius: 16px;
+background-color: white;
+box-shadow: 0 10px 25px rgba(30,64,175,0.15);
 }
 h1{
-  margin-top: 8px;
-  color:#1e3a8a;
+margin-top: 8px;
+color:#1e3a8a;
 }
 .day-label{
-  margin: 0;
-  color: #2563eb;
-  font-weight: bold;
+margin: 0;
+color: #2563eb;
+font-weight: bold;
+} */
+
+.navbar{
+display: flex;
+justify-content: space-between;
+align-items: center;
+padding: 18px 8%;
+background-color: #0f172a;
+color:white;
+}
+.navbar h2{
+margin: 0;
+}
+.nav-links a{
+color: white;
+text-decoration: none;  
+}
+.nav-links a:hover{
+color: #60a5fa;
+}
+.hero{
+padding: 100px 8%;
+background: linear-gradient(135deg,#172554,#2563eb);
+}
+.hero-label{
+margin: 0;
+color: #93c5fd;
+font-size: 14px;
+font-weight:bold;
+letter-spacing: 1px;
+text-transform: uppercase;
+}
+.hero h1{
+max-width:750px;
+margin : 12px 0;
+font-size: 48px;
+
+}
+.hero-description{
+max-width : 650px;
+font-size: 18px;
+line-height: 1.7;
+}
+
+.hero-button{
+display: inline block;
+margin-top: 20px;
+padding:12px 20px;
+border-radius: 6px;
+background-color: white;
+color: #1d4ed8;
+font-weight: bold;
+text-decoration: none;
 }
